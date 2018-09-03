@@ -1,3 +1,74 @@
+.dflex-column {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+}
 body {
-	background-color: #050505;
+  background-color: #0a0809;
+  height: 100%;
+}
+.container {
+  text-align: center;
+  margin: 0 auto;
+  width: 1400px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  min-height: 100%;
+}
+.top {
+  flex: 1;
+}
+header .headerUp {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+}
+header .headerUp .box2 {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+header .headerUp .box2 img {
+  height: 40px;
+}
+header nav ul {
+  list-style-type: none;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-around;
+}
+header a {
+  color: #f6f6f6;
+  font-weight: bold;
+}
+header a:hover {
+  text-decoration: none;
+  color: #b0b0b0;
+}
+main .imgMain {
+  width: 100%;
+  margin: 0 auto;
 }
