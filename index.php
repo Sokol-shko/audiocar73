@@ -31,7 +31,17 @@
 				</div>
 				<nav>
 					<ul>
-						<li><a href="#">КАТАЛОГ</a></li>
+						<li class="nav_catalog"><a href="#">КАТАЛОГ</a>
+							<ul>
+								<li>1</li>
+								<li>2</li>
+								<li>3</li>
+								<li>4</li>
+								<li>5</li>
+								<li>6</li>
+								<li>7</li>
+							</ul>
+						</li>
 						<li><a href="#">КОНТАКТЫ</a></li>
 						<li><a href="#">НАШИ РАБОТЫ</a></li>
 						<li><a href="#">О НАС</a></li>
