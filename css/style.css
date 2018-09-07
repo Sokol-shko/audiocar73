@@ -17,18 +17,18 @@
   -o-flex-direction: column;
   flex-direction: column;
 }
-.dflex-jcsb {
+.dflex {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
   display: flex;
-  justify-content: space-between;
 }
-body {
+body,
+html {
   background-color: #0a0809;
-  color: #f6f6f6;
   height: 100%;
+  color: #f6f6f6;
 }
 a:hover {
   color: #e3e3e3;
@@ -92,6 +92,34 @@ header nav ul li {
 header nav ul li:hover {
   border-bottom: 1px solid #f6f6f6;
 }
+header nav {
+  border-top: 1px solid blue;
+}
+header nav ul {
+  padding: 0;
+  margin: 10px 0 0;
+  list-style-type: none;
+  position: relative;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-around;
+}
+header nav ul .subdir {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  display: none;
+}
+header nav ul .subdir li a {
+  text-align: left;
+}
+header nav ul .nav_catalog:hover .subdir {
+  display: inline-block;
+  background-color: #0a0809;
+}
 header a {
   color: #f6f6f6;
   font-weight: bold;
@@ -102,5 +130,13 @@ header a:hover {
 }
 main .imgMain {
   width: 100%;
+  margin: 0 auto;
+}
+footer {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
   margin: 0 auto;
 }

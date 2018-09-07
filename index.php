@@ -32,14 +32,11 @@
 				<nav>
 					<ul>
 						<li class="nav_catalog"><a href="#">КАТАЛОГ</a>
-							<ul>
-								<li>1</li>
-								<li>2</li>
-								<li>3</li>
-								<li>4</li>
-								<li>5</li>
-								<li>6</li>
-								<li>7</li>
+							<ul class="subdir">
+								<li><a href="#">Усилители</a></li>
+								<li><a href="#">Эстрада</a></li>
+								<li><a href="#">Субвуферы</a></li>
+								<li><a href="#">Коаксиальная акустика</a></li>
 							</ul>
 						</li>
 						<li><a href="#">КОНТАКТЫ</a></li>
@@ -54,7 +51,7 @@
 			</main>
 		</div>
 		<footer>
-			ПОДВАЛ
+			<p>&copy; Все права защищены. 2018г.</p>
 		</footer>
 	</div>
 <script src="libraries/jquery-3.3.1/jquery-3.3.1.js"></script>
