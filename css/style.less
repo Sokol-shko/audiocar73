@@ -39,7 +39,10 @@
 body,
 html {
 	background-image: url('../img/main.jpg');
-	background-size: cover; 
+	background-size: cover;
+	background-repeat: no-repeat;
+	-ms-background-position-y: -100px;
+	background-position-y: -100px;
 	height: 100%;
 	color: @fontColor;
 	font-family: "Roboto Condensed", Arial, sans-serif;	
@@ -130,7 +133,7 @@ header {
 			position: relative;	
 			
 			li {
-				padding: 5px 20px;
+				padding: 5px 100px;
 			}
 			
 			.subdir {
@@ -201,5 +204,4 @@ footer {
 		color: #989898;
 		margin: 10px auto;
 	}
-	
 }

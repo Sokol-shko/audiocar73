@@ -32,6 +32,9 @@ body,
 html {
   background-image: url('../img/main.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  -ms-background-position-y: -100px;
+  background-position-y: -100px;
   height: 100%;
   color: #f4f4f4;
   font-family: "Roboto Condensed", Arial, sans-serif;
@@ -129,7 +132,7 @@ header nav ul {
   position: relative;
 }
 header nav ul li {
-  padding: 5px 20px;
+  padding: 5px 100px;
 }
 header nav ul .subdir {
   padding: 0;

@@ -65,6 +65,10 @@
 		</div>
 		<footer>
 			<div class="copyr">&copy; Все права защищены. 2018г.</div>
+			<div class="social">
+				<i class="fa fa-vk" aria-hidden="true"></i>
+				
+			</div>
 		</footer>
 	</div>
 <script src="libraries/jquery-3.3.1/jquery-3.3.1.js"></script>
