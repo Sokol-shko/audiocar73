@@ -13,66 +13,29 @@
 </head>
 <body>
 	<div class="block">
-		<div class="top">
+		<div class="top topRegistration">
 			<header>
-				<div class="headerUp">
-					<div class="box1">
-						<a href="#">Вход</a>
-						|
-						<a href="#">Регистрация</a>
-					</div>
-					<a href="index.php" class="box2">
-						<img src="img/logo.png" alt="logo">
-						<p>AudioCar</p>
-					</a>
-					<div class="box3">
-						<a href="#">Гость</a>
-						|
-						<a href="#">Корзина</a>
-						<a href="#"><img src="img/e-commerce.png" alt="Корзина"></a>
-						<span>1000</span>  <i class="fa fa-rub" aria-hidden="true"></i>
-					</div>
-				</div>
-				<nav>
-					<ul>
-						<li class="nav-catalog">
-						<a href="#">КАТАЛОГ 
-							<i class="fa fa-caret-down" aria-hidden="true"></i>
-						</a>
-							<ul class="subdir">
-								<li><a href="#">Усилители</a></li>
-								<li><a href="#">Эстрада</a></li>
-								<li><a href="#">Субвуферы</a></li>
-								<li><a href="#">Коаксиальная акустика</a></li>
-								<li><a href="#">Усилители</a></li>
-								<li><a href="#">Эстрада</a></li>
-								<li><a href="#">Субвуферы</a></li>
-								<li><a href="#">Коаксиальная акустика</a></li>
-								<li><a href="#">Усилители</a></li>
-								<li><a href="#">Эстрада</a></li>
-								<li><a href="#">Субвуферы</a></li>
-								<li><a href="#">Коаксиальная акустика</a></li>
-							</ul>
-						</li>
-						<li><a href="#">КОНТАКТЫ</a></li>
-						<li><a href="#">НАШИ РАБОТЫ</a></li>
-						<li><a href="#">О НАС</a></li>
-						<li><a href="#">ДОСТАВКА И ОПЛАТА</a></li>
-					</ul>
-				</nav>
+				<?php
+					include 'views/header.html';
+				?>
 			</header>
-			<div class="container">
-				<main class="titleMain">
-
+			<div class="container containerRegistration">
+				<main class="boxRegistration">
+					<form class="formRegistration" action="#" method="post">
+						<h1>РЕГИСТРАЦИЯ</h1>
+						<input type="email" name="email" id="">
+						<input type="password" name="password" id="">
+						<input type="password" name="repassword" id="">
+						<p>Подтвердите, что Вы не робот</p>
+						<input type="text" name="captcha" id="">
+					</form>
 				</main>
 			</div>	
 		</div>
 		<footer>
-			<div class="copyr">&copy; Все права защищены. 2018г.</div>
-			<div class="social">
-				<a class="vk" href="https://vk.com/studio_audiocar"><i class="fa fa-vk fa-2x" aria-hidden="true"></i></a>
-				<a class="inst" href="https://www.instagram.com/audiocar73/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
-			</div>
+			<?php
+				include 'views/footer.html';
+			?>
 		</footer>
 	</div>
 <script src="libraries/jquery-3.3.1/jquery-3.3.1.js"></script>
